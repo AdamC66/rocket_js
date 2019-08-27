@@ -41,7 +41,7 @@ class Rocket {
     } else if (messageCode < 10) {
       signalInfo.push('beep');
       if (this.flying) {
-        signalInfo.push('beep');
+        signalInfo.push('beep')
       }
     } else {
       if (this.flying) {
